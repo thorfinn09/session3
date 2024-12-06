@@ -1,0 +1,51 @@
+nav {
+    display: flex; 
+    justify-content:flex-end;
+    align-items: flex-start;
+    height: 0; 
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    width: auto; 
+  }
+  
+  nav li {
+    display: flex;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    margin:0 15px; 
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #1502e7;
+  }
+
+header {
+    h1 {
+        font-size: 80px;
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    p {
+        font-size: 50px;
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+section {
+    width: 1300px;;
+    max-width: 1500px; /* Максимальная ширина */
+    padding: 30px;
+    background-color: rgb(225, 223, 223);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; 
+}
+body {
+    background-color: rgb(207, 205, 205); /* Светло-голубой фон для всей страницы */
+}
